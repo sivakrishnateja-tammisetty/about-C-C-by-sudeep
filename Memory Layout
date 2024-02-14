@@ -1,0 +1,21 @@
+Every program has a memory layout that comprises of:
+
+- Text Segment
+- Data Segment
+- BSS Segment
+- Heap
+- Stack
+
+
+
+Think of it like different parts of your brain, each with a specific function.
+
+The Text Segment stores executable instructions in binary form.
+
+The Data Segment stores initialized global and static variables.
+
+The BSS Segment stores uninitialized global and static variables.
+
+The Heap is the dynamic memory allocation region, useful for allocating memory at runtime.
+
+The Stack is used for storing function calls, local variables, and function arguments.
